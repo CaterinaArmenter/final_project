@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Caterina Armenter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+
+      <a href="index.html" id="name">Caterina Armenter</a>
+        <div id="innernav">
+        <a href="about.html">About</a>
+       <a href="portfolio.html">Portfolio</a>
+        <a href="http://whenitgetsdark.blogspot.com/">Blogs</a>
+        <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+
+    </header>
+    
+    <div class="gallery">
+      <div class="thumbnail">
+        <a href="germany.html">
+          <img src="img/germany/germany.jpg">
+          <p>Germany</p>
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a href="montenegro.html">
+          <img src="img/montenegro/montenegro.jpg">
+          <p>Monte Negro</p>
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a href="china.html">
+          <img src="img/china/china.jpg">
+          <p>China</p>
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a href="film.html">
+          <img src="img/film/film.jpg">
+          <p>Film</p>
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a href="mexico.html">
+          <img src="img/mexico/mexico.jpg">
+          <p>Mexico</p>
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a href="spain.html"><img src="img/spain/spain.jpg">
+        <p>Spain</p>
+      </a>
+      </div>
+       <div class="thumbnail">
+        <a href="abandoned.html">
+          <img src="img/abandoned/abondoned.jpg">
+          <p>Abandoned</p>
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a href="usa.html">
+          <img src="img/usa/usa.jpg">
+          <p>USA</p>
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a href="colombia.html">
+          <img src="img/colombia/colombia.jpg">
+          <p>Colombia</p>
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a href="amsterdam.html">
+          <img src="img/amsterdam/amsterdam.jpg">
+          <p>Amsterdam</p>
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a href="paris.html">
+          <img src="img/paris/paris.jpg">
+          <p>Paris</p>
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a href="italy.html">
+          <img src="img/italy/italy.jpg">
+          <p>Italy</p>
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a href="slovenia.html">
+          <img src="img/slovenia/slovenia.jpg">
+          <p>Slovenia</p>
+        </a>
+      </div>
+      <div class="thumbnail">
+        <a href="portfolio.html">
+          <img src="img/portfolio/portfolio.jpg">
+          <p>Web Design</p>
+        </a>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script type="text/javascript" src="js/modernizr-custom.js"></script>
+
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+
+    <script type="text/javascript">
+       $('.gallery').masonry({
+    // set itemSelector so .grid-sizer is not used in layout
+      itemSelector: '.thumbnail',
+    // use element for option
+    columnWidth: '.thumbnail',
+    percentPosition: true
+  })
+    </script>
+
+    <script src="js/project.js"></script>
+  </body>
+
+
+
+</html>
